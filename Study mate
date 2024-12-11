@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study mate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: #f4f4f4;
+        }
+        .hero h1 {
+            margin: 0.5rem 0;
+            font-size: 2.5rem;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem;
+            background: #fff;
+        }
+        .features div {
+            text-align: center;
+            width: 30%;
+        }
+        .features h3 {
+            color: #4CAF50;
+        }
+        .cta {
+            text-align: center;
+            padding: 2rem;
+            background: #4CAF50;
+            color: white;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            background: #333;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your App Name</h1>
+        <p>Tagline that highlights your app's purpose</p>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to Your App</h1>
+        <p>Discover the features and benefits of using our app!</p>
+    </section>
+
+    <section class="features">
+        <div>
+            <h3>Feature 1</h3>
+            <p>Brief description of physics.</p>
+        </div>
+        <div>
+            <h3>Feature 2</h3>
+            <p>Brief description of chemistry.</p>
+        </div>
+        <div>
+            <h3>Feature 3</h3>
+            <p>Brief description of biology.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Download the App Now!</h2>
+        <a href="#">Get it on App Store</a>
+        <a href="#">Get it on Google Play</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 study mate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
